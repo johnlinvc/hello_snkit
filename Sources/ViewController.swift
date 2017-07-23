@@ -7,7 +7,7 @@ import Foundation
 
 class ViewController : SNViewController {
     override func viewDidLoad() {
-        let label = SNLabel(frame:CGRect(x: 0, y: 0, width: 100, height: 100))
+        let label = SNLabel(frame:CGRect(x: 100, y: 100, width: 100, height: 100))
         label.text = "hello SNKit"
         self.view.addSubview(label)
     }
