@@ -1,9 +1,11 @@
 import Kitura
+import SNKit
 
 let router = Router()
 router.get("/") {
     req, res, next in
-    res.send("Hello, world")
+    let window = SNWindow()
+    res.send(window.dispatch())
     next()
 }
 
