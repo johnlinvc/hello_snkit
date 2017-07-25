@@ -11,7 +11,7 @@ class ViewController : SNViewController {
         label = SNLabel(frame:CGRect(x: 100, y: 100, width: 100, height: 100))
         label.text = "hello SNKit"
         self.view.addSubview(label!)
-        let button = SNButton(frame:CGRect(x: 200, y: 200, width: 200, height: 40))
+        let button = SNButton(frame:CGRect(x: 200, y: 200, width: 140, height: 40))
         button.setTitle("Magic Button", for: .normal)
         button.backgroundColor = SNColor.blue
         self.view.addSubview(button)
